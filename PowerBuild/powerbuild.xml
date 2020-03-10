@@ -1,0 +1,25 @@
+<app>
+  <global>
+    <variable value="testapp" key="appname" />
+    <variable value="global" key="stage" />
+  </global>
+  <stage name="dev">
+    <variables>
+      <variable value="dev" key="stage" />
+      <variable value="testguid" key="guid" />
+      <variable value="1" key="counter" />
+    </variables>
+  </stage>
+  <stage name="nports_kon">
+    <variables>
+      <variable value="kon" key="stage" />
+      <variable value="2" key="counter" />
+    </variables>
+  </stage>
+  <stage name="nports_prod">
+    <variables>
+      <variable value="prod" key="stage" />
+      <variable value="3" key="counter" />
+    </variables>
+  </stage>
+</app>
